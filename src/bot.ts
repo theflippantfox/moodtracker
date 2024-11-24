@@ -1,5 +1,5 @@
 import { Client, GatewayIntentBits, Interaction } from 'discord.js';
-import { TOKEN } from './token';
+import { TOKEN } from './config';
 import { recordMood } from './commands/mood';
 
 import "./slash"

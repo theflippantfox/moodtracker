@@ -1,7 +1,7 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
 import { REST } from '@discordjs/rest';
 import { Routes } from 'discord-api-types/v9';
-import { CLIENT_ID, GUILD_ID, TOKEN } from './token';
+import { CLIENT_ID, GUILD_ID, TOKEN } from './config';
 
 // Register Slash Command
 const commands = [

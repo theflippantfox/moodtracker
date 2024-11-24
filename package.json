@@ -1,10 +1,15 @@
 {
   "scripts": {
-    "dev": "nodemon src/bot.ts"
+    "dev": "nodemon src/bot.ts",
+    "build": "tsc -p tsconfig.json",
+    "run": "node build/bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@types/node": "^22.9.3",
-    "discord.js": "^14.16.3",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
